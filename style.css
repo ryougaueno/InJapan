@@ -3,6 +3,24 @@
     font-family: 'Vollkorn', serif;
    
 }
+.start {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 280px;
+}
 
 .pagetop {
     padding-top: 10px;
@@ -32,6 +50,7 @@ header{
     background-repeat: no-repeat;
     background-size:cover;
     color :white;
+    background-attachment: fixed;
 }
 .header-head{
     height: 100px;
@@ -112,6 +131,7 @@ span{
     background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url(./img/DSC_0208.JPG);
     height: 160px;
     margin: 1px 0px;
+    background-attachment: fixed;
 }
 .center-item{
     padding: 10px 30px;
@@ -132,6 +152,7 @@ span{
     height: 500px;
     margin-bottom: 1px;
     position: relative;
+    background-attachment: fixed;
 }
 
 .box-content-1 a{
@@ -164,6 +185,7 @@ span{
     height: 500px;
     margin-bottom: 1px;
     position: relative;
+    background-attachment: fixed;
 }
 .box-content-2 a{
     position: absolute;
@@ -187,6 +209,7 @@ span{
     height: 500px;
     margin-bottom: 1px;
     position: relative;
+    background-attachment: fixed;
 }
 .box-content-3 a{
     position: absolute;
