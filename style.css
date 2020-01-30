@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    font-family: 'Vollkorn', serif;
+   
+}
+
+.pagetop {
+    padding-top: 10px;
+    padding-right: 30px;
+    text-align: right;
+    
+}
+.pagetop a {
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: underline;
+}
+.pagetop a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+/* hm */
+
+
+/* header */
+
+header{
+    height:670px;
+    width: 100%;
+    background-image:  linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url(./img/DSC_0014.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color :white;
+}
+.header-head{
+    height: 100px;
+    
+}
+.header-item{
+    position: relative;
+    padding:  20px 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2em;
+}
+
+.header-item a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header-item a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+
+.wrapper h1{
+    font-size: 6em;
+}
+.wrapper p{
+    font-size: 2em;
+}
+.wrapper{
+    margin-left: 250px;
+    padding-top: 250px;
+}
+span{
+    color: red;
+}
+
+
+
+/* ここからmain */
+
+/* center */
+.center-margin{
+    height: 400px;
+}
+.margin-item{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+.margin-item h1{
+    position: relative;
+    padding: 0.25em 0;
+  }
+  .margin-item h1:after {
+    content: "";
+    display: block;
+    height: 3.5px;
+    background: -webkit-linear-gradient(to right, rgb(231, 90, 90), transparent);
+    background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+  }
+
+
+
+/* 花火 */
+
+
+.center-box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url(./img/DSC_0208.JPG);
+    height: 160px;
+    margin: 1px 0px;
+}
+.center-item{
+    padding: 10px 30px;
+    color: rgb(202, 202, 202);
+}
+.center-item p{
+    font-size: 1.1em;
+}
+.content-item p{
+    font-size: 1.2em;
+}
+/* 1神社*/
+.box-content-1{
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./img/DSC_0330.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.box-content-1 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.box-content-1 a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+
+.content-item{
+    color: rgb(202, 202, 202);
+    padding: 50px 80px;
+}
+
+
+
+/* 2津軽三味線 */
+.box-content-2{
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://www.atpress.ne.jp/releases/42975/img_42975_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    margin-bottom: 1px;
+    position: relative;
+}
+.box-content-2 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.box-content-2 a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+/* 温泉 */
+.box-content-3{
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://tg.tripadvisor.jp/news/wp-content/uploads/2018/01/yukimi02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    margin-bottom: 1px;
+    position: relative;
+}
+.box-content-3 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.box-content-3 a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+/* footeer */
+
+footer{
+    background-color: black;
+    height: 100px;
+    color: rgb(202, 202, 202);
+   
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-item{
+    padding: 5px 40px;
+    position: relative;
+}
+
+
+.footer-item a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-item a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+.footer-box2{
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    font-family: 'Vollkorn', serif;
+   
+}
+/* header */
+header{
+    height:650px;
+    width: 100%;
+    background-image:  linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url(./DSC_0619.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color :white;
+    margin-bottom: 1px;
+}
+.header-head{
+    height: 100px;
+    
+}
+.header-item{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding:  10px 50px;
+    font-size: 1.1em;
+    
+}
+.header-item a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header-item a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+.header-content{
+    padding: 100px 300px;
+}
+.content-box input{
+    background-color: rgb(202, 202, 202);
+}
+.content-box textarea{
+    background-color: rgb(202, 202, 202);
+    width: 500px;
+    height: 100px;
+}
+.content-box input:hover{
+    background-color: black;
+    opacity: 0.1;
+}
+textarea:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    height: 100px;
+    color: rgb(202, 202, 202);
+   
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-item{
+    padding: 20px 40px;
+    position: relative;
+}
+
+
+.footer-item a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-item a:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+.footer-box2{
+    display: flex;
+    justify-content: center;
+}
